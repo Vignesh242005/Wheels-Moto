@@ -1,0 +1,94 @@
+.admin-dashboard-container {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    background-color: #02006b; /* Main background color */
+    padding: 20px;
+    min-height: 100vh; /* Ensure the container takes up full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-dashboard-container h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error-message {
+    color: yellow; /* Color for error messages */
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+table {
+    width: 90%; /* Center the table with some margin */
+    margin-top: 20px;
+    border-collapse: collapse; /* Collapse borders for cleaner look */
+}
+
+table th, table td {
+    border: 1px solid white; /* White borders for table cells */
+    padding: 12px 15px; /* Add more padding for better spacing */
+    text-align: center;
+}
+
+table th {
+    background-color: #333333; /* Dark gray header background */
+    color: white; /* Header text color */
+    font-weight: bold;
+    font-size: 18px; /* Increase font size in header */
+}
+
+table tbody tr {
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.15); /* Softer hover effect */
+}
+
+table tbody td {
+    background-color: #1a1a1a; /* Darker background for table cells */
+    color: white; /* Text color for table cells */
+    font-size: 16px; /* Font size for table body */
+}
+
+select {
+    background-color: #333333; /* Dark background for dropdown */
+    color: white; /* Text color in dropdown */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Padding inside the dropdown */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+button {
+    background-color: red; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding inside the button */
+    border: none; /* Remove default borders */
+    cursor: pointer; /* Show pointer on hover */
+    border-radius: 5px; /* Rounded button corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+
+@media (max-width: 768px) {
+    /* Responsive styles for smaller screens */
+    table {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+
+    table th, table td {
+        padding: 8px; /* Less padding on smaller screens */
+    }
+
+    .admin-dashboard-container h1 {
+        font-size: 32px; /* Reduce font size of heading for mobile */
+    }
+}

@@ -1,0 +1,51 @@
+/* Appointment Form CSS */
+.appointment-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #001f3f; /* Dark blue */
+}
+
+.appointment-form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appointment-form-container input,
+.appointment-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.appointment-form-container input:focus,
+.appointment-form-container select:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.appointment-form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #001f3f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-form-container button:hover {
+    background-color: #0056b3; /* Lighter blue on hover */
+}
