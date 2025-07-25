@@ -26,5 +26,20 @@ A full-stack web application built using **React.js**, **Node.js**, and **PHP** 
 
 ---
 
-## 📂 Folder Structure
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+
+- Node.js & npm
+- MySQL Server
+- PHP environment (like XAMPP/WAMP)
+
+
+-git clone https://github.com/your-username/car-service-booking.git
+-cd car-service-booking
+-npm install
+-npm start
 
