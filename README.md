@@ -22,7 +22,7 @@ A full-stack web application built using **React.js**, **Node.js**, and **PHP** 
 - **Frontend:** React.js
 - **Backend:** Node.js
 - **Database Layer:** PHP (MySQL)
-- **Others:** Express.js, Axios, Bootstrap/Tailwind (if used)
+- 
 
 ---
 
